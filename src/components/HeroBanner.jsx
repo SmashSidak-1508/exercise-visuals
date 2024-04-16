@@ -15,7 +15,7 @@ const HeroBanner = () => {
       color="blue" // Changed text color to blue
     >
       <Typography color="#0000FF" fontWeight="600" fontSize="26px">
-        Wellness Gym Search
+        Wellness Exercise Search & Visuals
       </Typography>
       <Typography
         fontWeight="700"

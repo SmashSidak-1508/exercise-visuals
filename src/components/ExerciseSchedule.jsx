@@ -81,7 +81,7 @@ function ExerciseSchedule() {
 
     return (
         <Container maxWidth="md">
-            <Typography variant="h3" align="center" gutterBottom>Exercise Schedule</Typography>
+            <Typography variant="h4" align="center" gutterBottom>Day-wise Exercise Schedule</Typography>
             <form onSubmit={handleSubmit}>
                 {daysOfWeek.map((day) => (
                     <Paper key={day} style={{ marginBottom: '20px', padding: '10px' }}>

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
+import ExerciseSchedule from "./components/ExerciseSchedule.jsx";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ExerciseSchedule" element={<ExerciseSchedule />} />
           <Route path="/exercise/:id" element={<ExerciseDetail />} />
         </Routes>
         <Footer />

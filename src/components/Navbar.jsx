@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
+// import ExerciseSchedule from "./ExerciseSchedule"
 // import Logo from "../assets/images/Logo.png";
 
 const Navbar = () => {
